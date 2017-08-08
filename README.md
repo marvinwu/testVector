@@ -1,3 +1,58 @@
+# how to install
+
+~~~
+brew install hugo
+
+npm install
+
+
+npm start
+
+~~~
+
+
+it will launch browser http://localhost:3000
+
+## how to add a page/post
+
+~~~
+cd site
+
+hugo new test.md
+
+hugo new post/test.md
+
+~~~
+
+
+## how to change post
+
+~~~
+
+cd site/content/post
+
+edit first.md to anything you want
+
+
+git commit
+
+~~~
+
+it will show up in [local](http://localhost:3000/post/first/)
+
+as well as [remote public demo site](https://hug-demo.netlify.com/)
+
+
+
+
+
+# reference
+
+[netlify tutorial](https://www.netlify.com/blog/2016/11/15/new-to-jamstack-how-to-make-a-site-from-a-to-z/)
+
+
+____
+
 # Victor Hugo
 
 **A [Hugo](https://gohugo.io/) boilerplate for creating truly epic websites**
@@ -90,7 +145,7 @@ You can also click this button:
 
 Victor-Hugo doesn't make any assumption on which version of Hugo you use, this boilerplate works with any version above v0.13. However, the version
 installed on your computer might not be the same version that Netlify uses to build your site. To ensure that those two versions match, open the `netlify.toml`
-file and change the `HUGO_VERSION` variable to match the version you use in your computer. If you don't know which version you're using in your computer, you 
+file and change the `HUGO_VERSION` variable to match the version you use in your computer. If you don't know which version you're using in your computer, you
 can open a terminal and run `hugo version`, that will display the version in your computer.
 
 ## Enjoy!!
